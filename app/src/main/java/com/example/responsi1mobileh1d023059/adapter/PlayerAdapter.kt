@@ -19,7 +19,7 @@ class PlayerAdapter(
         fun bind(player: Player) {
             binding.tvPlayerName.text = player.name ?: "Unknown"
             binding.tvNationality.text = player.nationality ?: "N/A"
-            binding.tvPosition.text = player.position ?: "N/A"
+//            binding.tvPosition.text = player.position ?: "N/A"
 
             val position = player.position?.uppercase() ?: ""
 
